@@ -24,7 +24,8 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
-            <version>3.0.19</version> <!-- or whatever the latest version is -->
+            <version>4.0.15</version>
+            <type>pom</type>
             <exclusions>
                 <exclusion>
                     <groupId>org.testng</groupId>
