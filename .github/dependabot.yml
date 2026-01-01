@@ -2,6 +2,9 @@ version: 2
 updates:
 - package-ecosystem: maven
   directory: "/"
+  ignore:
+  # TODO https://github.com/jenkinsci/jjwt-api-plugin/pull/94#pullrequestreview-2298476849
+  - dependency-name: io.jsonwebtoken:jjwt-api
   schedule:
     interval: monthly
   open-pull-requests-limit: 10
