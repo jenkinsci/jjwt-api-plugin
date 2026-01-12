@@ -19,6 +19,8 @@
         <jenkins.baseline>2.479</jenkins.baseline>
         <jenkins.version>${jenkins.baseline}.1</jenkins.version>
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
+        <hpi.bundledArtifacts>jjwt-api,jjwt-impl,jjwt-jackson</hpi.bundledArtifacts>
+        <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
     </properties>
     <name>Java JSON Web Token (JJWT) Plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
